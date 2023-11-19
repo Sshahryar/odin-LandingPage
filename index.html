@@ -1,14 +1,91 @@
 <!-index.html-->
 <!-Sshahryar-->
 
-<html>
-
 <head>
-<title>Second project from The Odin Project</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-<h1>Header Logo</h1>
+<section id="hero">
+    <header class="hero-header">
+        <p class="logo">Header Logo</p>
+        <nav>
+            <ul>
+                <li class="nav-link"><a href="#">header link one</a></li>
+                <li class="nav-link"><a href="#">header link two</a></li>
+                <li class="nav-link"><a href="#">header link three</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero-content">
+        <div class="left">
+            <h1 class="hero-title">This website is awesome</h1>
+            <p class="hero-text">
+                This website has some subtext that goes here under the main title. It's a smaller
+                font and the color is lower contrast
+            </p>
+            <button class="btn">Sign up</button>
+        </div>
+        <img src="https://via.placeholder.com/480x224" alt="TODO: replace" class="hero-img right">
+    </div>
+</section>
 
+<section id="features">
+    <h2 class="features-title">Some random information.</h2>
+    <div class="feature-container">
+        <div class="feature">
+            <img src="https://via.placeholder.com/150x150" alt="TODO: replace" class="feature-img">
+            <p class="feature-text">this is some subtext under an illustration or image</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/150x150" alt="TODO: replace" class="feature-img">
+            <p class="feature-text">this is some subtext under an illustration or image</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/150x150" alt="TODO: replace" class="feature-img">
+            <p class="feature-text">this is some subtext under an illustration or image</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/150x150" alt="TODO: replace" class="feature-img">
+            <p class="feature-text">this is some subtext under an illustration or image</p>
+        </div>
+    </div>
+</section>
+
+<section id="quote">
+    <div class="flex-wrapper">
+        <blockquote class="quote">
+            This is an inspiring quote, or testimonial from a customer. Maybe it's just filling up
+            space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+        </blockquote>
+        <cite class="quote-source">Thor, God of Thunder</cite>
+    </div>
+</section>
+
+<section id="call-to-action">
+    <div class="container">
+        <div class="flex-wrapper">
+            <div>
+                <p class="action-title">Call to action! It's time!</p>
+                <p class="action-text">
+                    Sign up for our product by clicking that button right over there!
+                </p>
+            </div>
+            <button class="btn">Sign up</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Copyright<span class="icon">©</span>The Odin Project 2022</p>
+</footer>
 </body>
+
+</html>
